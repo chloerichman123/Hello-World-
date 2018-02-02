@@ -1,0 +1,44 @@
+This is my code snippet 
+
+``` rudy
+
+var x = "Some String"
+undefined
+x/length
+NaN
+var firstName
+undefined
+var firstName = "Chloe"
+undefined
+var lastName = "Richman"
+undefined
+var fullName = firstName + lastName
+undefined
+fullName
+"ChloeRichman"
+var firstLetter = firstName.slice(0.1)
+undefined
+var lastName = lastName.slice(0.1)
+undefined
+var monogram = ????
+VM475:1 Uncaught SyntaxError: Unexpected token ?
+var firstLetter = firstName.slice(0,1)
+undefined
+var lastName = lastName.slice(0,1)
+undefined
+var monogram
+undefined
+var firstLetter
+undefined
+var lastLetter = lastName.slice(0,1)
+undefined
+var mon
+undefined
+var monogram = firs
+VM567:1 Uncaught ReferenceError: firs is not defined
+    at <anonymous>:1:16
+(anonymous) @ VM567:1
+var monogram = firstLetter + lastLetter
+undefined
+monogram
+"CR"
